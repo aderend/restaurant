@@ -1,0 +1,20 @@
+body {
+  background-image: url("http://www.latablavero.com/wp-content/uploads/2014/09/Light-Wood-Background.jpg");
+}
+
+h1, h3{
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+#reservation-list {
+  display: inline-flex;
+  margin: 15%;
+  padding:5%;
+}
+
+#make-reservation {
+  display: inline-flex;
+  margin: 15%;
+  padding:5%;
+}
