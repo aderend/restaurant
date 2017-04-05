@@ -1,20 +1,79 @@
 body {
-  background-image: url("http://www.latablavero.com/wp-content/uploads/2014/09/Light-Wood-Background.jpg");
+  background-image: url("https://c2.staticflickr.com/4/3587/4562655746_1b1f7d9cc3_o.png");
 }
 
 h1, h3{
-  margin-left: 45%;
-  margin-right: 45%;
+  margin: auto;
+  display: block;
+  text-align: center;
+  padding: 1em;
+}
+
+#reservations {
+  display:block;
+  margin: auto;
+
 }
 
 #reservation-list {
-  display: inline-flex;
-  margin: 15%;
+  float: right;
+  margin-right: 15%;
   padding:5%;
+  position: relative;
 }
 
 #make-reservation {
-  display: inline-flex;
-  margin: 15%;
+  float: left;
+  margin-left: 15%;
   padding:5%;
+  position: relative;
+}
+
+#cafe-img {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+#come-dine-with-us {
+  display: inline-block;
+  margin-right: 15%;
+  position: relative;
+  float: right;
+  padding: 2em;
+  white-space: nowrap;
+}
+
+#map-canvas {
+  margin:auto;
+  position: relative;
+  clear: both;
+}
+
+#reviews {
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  float: left;
+  padding: 2em;
+  margin-left: 15%;
+}
+
+.review-text {
+  display: inline-block;
+  margin: auto;
+}
+
+td {
+  padding: 0.5em;
+}
+
+.review {
+  font-style: italic;
+}
+
+.reviewer {
+  font-size: 0.75em;
+  font-weight: bold;
 }
